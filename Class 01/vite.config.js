@@ -3,10 +3,10 @@ import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 import { fileURLToPath } from 'url'
 
-// https://vite.dev/config/
+
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: '/class-01/',
+  base: '/React-SMIT/class-01/',
   resolve:{
     alias:{
       "@":fileURLToPath(new URL("./src",import.meta.url))
